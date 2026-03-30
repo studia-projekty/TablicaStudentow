@@ -2,9 +2,9 @@
 {
     private static void Main(string[] args)
     {
-            struct_student s1;  //struktura o nazwie "struct_student" pojawia sie w tym miejsu, żeby wskazać jaki to jest typ zmiennej tak jak np. "int" albo "string", a potem jest nazwa zmiennej "s1"
-            s1.imie = "Adam";
-            s1.wiek = 35;
+            struct_student s1;  //"struct_student" pojawia sie w tym miejsu, żeby wskazać jaki to jest typ zmiennej tak jak np. "int" albo "string", a potem jest nazwa zmiennej "s1"
+            s1.imie = "Adam"; // dopisuje Adam do pola "imie" struktury
+            s1.wiek = 35; // dopisuje 35 do pola "wiek" struktury 
 
             struct_student s2;
             s2.imie = "Piotr";
@@ -18,10 +18,10 @@
 
             foreach(struct_student x in studenci)
                 {
-                    
+                    Console.WriteLine("Imie: " + x.imie + ", Wiek: " + x.wiek);
                 }
-            Console.WriteLine(studenci);
-            Console.WriteLine(ObliczSredniaWieku(studenci));
+            Console.WriteLine();
+            Console.WriteLine($"Średnia wieku: " + ObliczSredniaWieku(studenci));
             //Console.WriteLine(studenci[0].wiek); //to by wydrukowało z tablicy pozycje 0, czyli s1.
     }
 // ################ METODY I INNE TAKIE TAM SE ###############
