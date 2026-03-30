@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TablicaStudentow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c0eccfc8c40e71b822ac49a586b2d90d57172f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a41fb457530d849058a37ec1696714d4b21dcf91")]
 [assembly: System.Reflection.AssemblyProductAttribute("TablicaStudentow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TablicaStudentow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
